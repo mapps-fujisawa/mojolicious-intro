@@ -12,4 +12,9 @@ sub post_root {
     $self->redirect_to('root');
 }
 
+sub get_json {
+    my $self = shift;
+    $self->render(json => { hello => 'world' });
+}
+
 1;
