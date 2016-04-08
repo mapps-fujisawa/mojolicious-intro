@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use FindBin;
-BEGIN { unshift @INC, "$FindBin::Bin/../lib" }
+BEGIN { unshift @INC, "$FindBin::Bin/lib" }
 use Mojolicious::Commands;
 
 # Start command line interface for application

@@ -7,3 +7,6 @@ carton-install:
 
 test:
 	carton exec -- prove -Ilib -r t
+
+boot-app:
+	carton exec -- plackup app.psgi
