@@ -8,3 +8,6 @@ requires 'Test::Exception';
 requires 'Test::Deep';
 requires 'Test::More';
 requires 'Test::Pretty';
+requires 'Teng';
+requires 'Class::Method::Modifiers';
+requires 'DBD::SQLite';

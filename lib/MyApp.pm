@@ -15,6 +15,8 @@ sub startup {
     $routes->get('/json')->name('json')->to('my_controller#get_json');
 
     $routes->post('/')->to('my_controller#post_root');
+
+    $routes->get('/user')->to('my_controller#get_user');
 }
 
 1;
